@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* Malgun Communication Web Standard Team Author KKS */
-::-webkit-scrollbar, *::-webkit-scrollbar {
-  display: none;
-  -webkit-overflow-scrolling: touch; }
-
 html {
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;

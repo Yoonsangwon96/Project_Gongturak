@@ -24,11 +24,12 @@
                     </a>
                 </h1>
                 <nav id="nav">
+                    <h2 class="blind">회원 메뉴</h2>
                     <div class="area_user_menu">
                         <ul class="menu_user">
                             <li>
                                 <a href="#;" class="link">
-                                    <span class="ico_profile"></span>
+                                    <span class="ico_profile" aria-hidden="true"></span>
                                     로그인
                                 </a>
                             </li>
@@ -64,7 +65,7 @@
                                 <input type="text" class="box_search">
                             </div>
                             <button class="btn_search on">
-                                <span class="ico_search"></span>
+                                <span class="ico_search" aria-hidden="true"></span>
                             </button>
                         </div>
                         <a href="https://www.leadersauction.com/auction/" class="link_banner" title="리더스옥션 페이지로 이동하기">
@@ -72,24 +73,58 @@
                         </a>
                     </div>
                     <div class="area_category">
+                        <h2 class="blind">메인 메뉴</h2>
                         <ul class="menu_category">
                             <li>
-                                <a href="#;" class="one_depth">공투락</a>
+                                <a href="#;" class="main_menu">공투락</a>
+                                <div class="menu_detail hide">
+                                    <h3 class="blind">상세 메뉴</h3>
+                                    <div class="inner">
+                                        <div class="menu_title">
+                                            <h4 class="title">공투락</h4>
+                                            <p class="sub_title">공동투자의 즐거움!<br>공투락입니다.</p>
+                                        </div>
+                                        <ul class="sub_menu">
+                                            <li>
+                                                <a href="#;" class="link">공투락이란?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#;" class="link">공투락 경험담</a>
+                                            </li>
+                                            <li>
+                                                <a href="#;" class="link">공투락 사진/동영상</a>
+                                            </li>
+                                            <li>
+                                                <a href="#;" class="link">회원 혜택 안내</a>
+                                            </li>
+                                        </ul>
+                                        <div class="menu_banner">
+                                            <strong class="title">공투락이란?</strong>
+                                            <p class="text">소액투자로 내꿈을 이뤄 줄 즐거운 공투락!</p>
+                                            <span class="banner_image image01" aria-hidden="true"></span>
+                                        </div>
+                                        <div class="menu_banner">
+                                            <strong class="title">회원 혜택 안내</strong>
+                                            <p class="text">공투락 회원만이 누릴 수 있는 혜택 안내</p>
+                                            <span class="banner_image image02" aria-hidden="true"></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#;" class="one_depth">전략회의실</a>
+                                <a href="#;" class="main_menu">전략회의실</a>
                             </li>
                             <li>
-                                <a href="#;" class="one_depth">강의실</a>
+                                <a href="#;" class="main_menu">강의실</a>
                             </li>
                             <li>
-                                <a href="#;" class="one_depth">상담 및 제안</a>
+                                <a href="#;" class="main_menu">상담 및 제안</a>
                             </li>
                             <li>
-                                <a href="#;" class="one_depth">공지사항</a>
+                                <a href="#;" class="main_menu">공지사항</a>
                             </li>
                             <li>
-                                <a href="#;" class="one_depth">마이페이지</a>
+                                <a href="#;" class="main_menu">마이페이지</a>
                             </li>
                         </ul>
                     </div>
@@ -97,8 +132,80 @@
             </div>
         </header>
         <div id="content">
-            컨텐츠 영역입니다.
-            배너와 그리드 형태를 가지고 있습니다.
+            <div class="main_banner">
+                <h2 class="blind">메인 컨텐츠</h2>
+                <div class="inner">
+                    <p class="banner_text">
+                        소액으로 꿈을 이룰 수 있는<br>
+                        새로운 재테크 방법<br>
+                        <strong>‘ 공투락 ’</strong>
+                    </p>
+                    <div class="banner_notify">
+                        <h3 class="title">추천 투자 물건</h3>
+                        <!-- 슬라이드 추가 전 임시 이미지 -->
+                        <img src="../src/img/rolling_image.png" alt="임시 이미지">
+                        <div class="wrap_nofity_time">
+                            <h4 class="title">사전입찰 전략 회의</h4>
+                            21.12.31 (금) 18:00 <!-- 스크립트로 시간 처리 필요 --><em class="time">0일 00:00:00 남음</em>
+                            <a href="#;" class="movement">참여 예약</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick_menu">
+                    <div class="inner">
+                        <ul class="menu_list">
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#;" class="link">
+                                    <span class="ico_speaker" aria-hidden="true"></span>
+                                    새소식
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer id="footer">
             푸터입니다.
