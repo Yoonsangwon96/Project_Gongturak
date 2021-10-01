@@ -1,0 +1,149 @@
+﻿@charset "UTF-8";
+
+/* header */
+#header {
+    background-color:#fff;
+}
+
+.header_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.menu_user,
+.area_user_menu,
+.menu_category {
+    display: flex;
+}
+
+/* 유저 메뉴 */
+.area_user_menu {
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu_user {
+    align-items: center;
+}
+
+.menu_user li {
+    position: relative;
+}
+
+.menu_user li + li {
+    margin-left: 30px;
+}
+
+.menu_user li + li:before {
+    position: absolute;
+    top: 4px;
+    left: -15px;
+    width: 1px;
+    height:12px;
+    background-color:#ccc;
+    content: '';
+}
+
+.menu_user .link {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #666;
+}
+
+.menu_user .ico_profile {
+    display:inline-block;
+    width: 24px;
+    height:25px;
+    margin: -1px 7px 0 0;
+    background:url(../img/ico_profile.png) no-repeat;
+}
+
+.area_user_menu .btn_search {
+    position:relative;
+    width: 52px;
+    height:50px;
+    margin-left: 19px;
+    background-color:#b3b3b3;
+}
+
+.area_user_menu .btn_search.on {
+    background-color:#666;
+}
+
+.area_user_menu .ico_search {
+    position:absolute;
+    top: 11px;
+    left: 12px;
+    width: 29px;
+    height:28px;
+    background:url(../img/ico_search.png) no-repeat;
+}
+
+.area_search,
+.wrap_option {
+    display: flex;
+}
+
+.area_search {
+    align-items: center;
+    height:50px;
+    margin-left: 19px;
+    padding-left: 15px;
+    background-color:#666;
+}
+
+#select_year,
+.area_search .box_search{
+    width: 95px;
+    height:30px;
+    padding: 0 10px;
+    background-color:#777 !important;
+    color: #fff;
+}
+
+#select_year {
+    background:url(../img/ico_arrow_bottom_sm.png) no-repeat 78px 50%;
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+}
+
+#select_year::-ms-expand {
+    display:none;/*for IE10,11*/
+}
+
+.area_search .text {
+    margin: 4px 0 0 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.area_search .box_search{
+    margin-left: 10px;
+}
+
+.link_banner {
+    flex: 1 0 auto;
+}
+
+/* 메인메뉴 */
+.menu_category li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu_category .one_depth {
+    display: inline-block;
+    padding: 22px 35px 21px;
+}
